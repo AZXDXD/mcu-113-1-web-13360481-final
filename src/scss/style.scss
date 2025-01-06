@@ -5,6 +5,9 @@
     --logo-color: rgb(254, 254, 43);
     --text-color: rgb(68, 68, 68);
   }
+  html {
+    scroll-behavior: smooth;
+  }
 
 body {
     background-color: var(--body-color);
