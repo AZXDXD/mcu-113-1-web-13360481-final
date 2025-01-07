@@ -10,39 +10,44 @@
   <body>
     <div class="container">
     <nav id="header">
-     <div class="nav-logo"> BanaNoobStudios </div>
-     <ul class="nav-menu">
+     <div class="nav-logo">BanaNoobStudios</div>
+     <ul class="nav-menu" id="menu">
        <li class="nav-item">
-        <a herf="#home" class="nav-link  active-link">首頁</a>
+        <a href="#home" class="nav-link active-link">首頁</a>
        </li>
        <li class="nav-item">
-        <a herf="#about" class="nav-link">關於我</a>
+        <a href="#about" class="nav-link">關於我</a>
        </li>
        <li class="nav-item">
-        <a herf="#skill" class="nav-link">技術</a>
+        <a href="#skill" class="nav-link">技術</a>
        </li>
        <li class="nav-item">
-        <a herf="#contact" class="nav-link">聯絡我</a>
+        <a href="#contact" class="nav-link">聯絡我</a>
        </li>
       </ul>
-      <div>
-        <div>
+        <div class="nav-button">
           <button type="button" class="btn">下載我的個人履歷 <i class="fa-regular fa-file-pdf"></i></button>
         </div>
-      </div>
+        <div class="nav-menu-btn">
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </div>
     </nav>
     <main class="wrapper">
       <section id="home" class="home-box">
-        <div class="home-text"><span>陳政宇</span></div>
-        <div class="name">我是資訊工程系一年甲班的學生</div>
+        <div class="home-text">
+        <div class="tag"><span>陳政宇</span></div>
+        <div class="name">我是資工系學生</div>
         <div class="subtitle">犧牲自身的健康，換來更多的科技知識。(註:這是處於理想的情況下)</div>
         <div class="text-btn">
           <button type="button" class="btn">包養我</button>
           <button type="button" class="btn">下載履歷 <i class="fa-regular fa-file-pdf"></i></button>
         </div>
         <div class="icons">
-          <div class="icons"><i class="fa-solid fa-code"></i></div>
+          <div class="icons"><i class="fa-brands fa-youtube"></i></div>
           <div class="icons"><i class="fa-brands fa-github"></i></div>
+          <div class="icons"><i class="fa-brands fa-discord"></i></div>
+          <div class="icons"><i class="fa-brands fa-facebook"></i></div>
+          <div class="icons"><i class="fa-brands fa-instagram"></i></div>
         </div>
        </div>
        <div class="home-image">
@@ -143,7 +148,7 @@
         </section>
     </main>
     <footer>
-      <div class="top-footer">有在用的網站或程式</div>
+      <div class="top-footer">然後就沒有然後了</div>
       <ul class="footer-menu">
         <li class="menu-item">
           <a href="#home">首頁</a>
